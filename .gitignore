@@ -1,0 +1,6 @@
+# Dependency trees and virtualenvs — regenerable, not tracked.
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
