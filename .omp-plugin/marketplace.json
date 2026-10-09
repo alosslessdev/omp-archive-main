@@ -1,0 +1,11 @@
+{
+	"name": "omp-archive",
+	"description": "Export a session's entire history: main transcript + every subagent session + background jobs",
+	"plugins": [
+		{
+			"name": "archive",
+			"source": ".",
+			"description": "Adds /archive (and the export_session_archive tool): writes a zip holding the main session, every subagent session verbatim, all session artifacts/logs, live background-job state, and a standalone HTML viewer."
+		}
+	]
+}

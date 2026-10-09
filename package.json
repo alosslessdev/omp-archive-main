@@ -1,0 +1,11 @@
+{
+	"name": "omp-archive",
+	"version": "0.1.0",
+	"description": "Export a session's entire history as a single archive: the main transcript, every subagent session verbatim, and background-job outputs",
+	"type": "module",
+	"keywords": ["omp", "oh-my-pi", "plugin", "extension", "export", "archive", "session", "subagent"],
+	"omp": {
+		"description": "Export a session's entire history: main transcript + every subagent session + background jobs",
+		"extensions": ["./extensions/archive.ts"]
+	}
+}
