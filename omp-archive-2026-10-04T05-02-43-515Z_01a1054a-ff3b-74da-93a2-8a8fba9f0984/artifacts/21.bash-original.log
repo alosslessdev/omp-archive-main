@@ -1,0 +1,47 @@
+total 8680
+drwx------  7 asdf asdf    4096 Oct  4 00:02 .
+drwxrwxr-x  8 asdf asdf    4096 Sep 28 22:19 ..
+-rw-------  1 asdf asdf  356352 Oct  4 00:02 agent.db
+-rw-r--r--  1 asdf asdf   32768 Oct  4 00:04 agent.db-shm
+-rw-------  1 asdf asdf   74192 Oct  4 00:04 agent.db-wal
+drwxrwxr-x  2 asdf asdf   45056 Oct  3 23:52 blobs
+drwxrwxr-x  4 asdf asdf    4096 Oct  4 00:02 cache
+-rw-------  1 asdf asdf     238 Oct  3 22:30 config.yml
+-rw-------  1 asdf asdf     238 Sep 28 11:42 config.yml.bak-114214
+-rw-------  1 asdf asdf     205 Sep 27 20:56 config.yml.bak-213222
+-rw-r--r--  1 asdf asdf  405504 Oct  4 00:02 history.db
+-rw-r--r--  1 asdf asdf   32768 Oct  4 00:04 history.db-shm
+-rw-r--r--  1 asdf asdf  201912 Oct  4 00:04 history.db-wal
+-rw-rw-r--  1 asdf asdf       6 Oct  2 23:45 last-changelog-version
+-rw-r--r--  1 asdf asdf 7585792 Oct  4 00:02 models.db
+-rw-r--r--  1 asdf asdf   32768 Oct  4 00:02 models.db-shm
+-rw-r--r--  1 asdf asdf    8272 Oct  4 00:02 models.db-wal
+drwxrwxr-x  3 asdf asdf    4096 Oct  2 23:53 predict
+drwxrwxr-x 16 asdf asdf    4096 Oct  3 00:17 sessions
+-rw-------  1 asdf asdf   12288 Oct  3 10:31 skill-descriptions.db
+-rw-------  1 asdf asdf   32768 Oct  4 00:02 skill-descriptions.db-shm
+-rw-------  1 asdf asdf       0 Oct  4 00:02 skill-descriptions.db-wal
+drwxrwxr-x  2 asdf asdf    4096 Oct  4 00:02 terminal-sessions
+=== sessions ===
+/home/asdf/.omp/agent/sessions/-projects-powerbi-linux/2026-09-24T02-30-07-451Z_01a0d13f-b15b-7110-a3be-37332a82cf5b.jsonl
+/home/asdf/.omp/agent/sessions/-projects-powerbi-linux/2026-09-27T06-55-49-187Z_01a0e1a6-05c3-7225-9983-f56d7febb497.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-autocad2027-private-main/2026-09-25T04-40-00-764Z_01a0d6dc-f7fc-723f-b039-bc8c7d5c6702.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-llama.cpp-build-ReleaseOV/2026-09-22T14-53-00-371Z_01a0c99b-1a53-7643-9f09-7a6f54bcdc85.jsonl
+/home/asdf/.omp/agent/sessions/-autocad2027/2026-09-23T20-07-31-458Z_01a0cfe1-6982-71b9-8673-ebb99169ba4c.jsonl
+/home/asdf/.omp/agent/sessions/-autocad2027/2026-09-23T20-15-54-137Z_01a0cfe9-1519-71a2-95de-d552e337b618.jsonl
+/home/asdf/.omp/agent/sessions/-projects-acad-wine-main/2026-09-27T23-59-09-859Z_01a0e54e-ec23-75b6-bfb7-064da6527f4a.jsonl
+/home/asdf/.omp/agent/sessions/-tmp/2026-10-04T03-30-46-604Z_01a104f6-d0cc-71a4-9f18-d6dd746845c9.jsonl
+/home/asdf/.omp/agent/sessions/-tmp/2026-09-22T15-42-01-990Z_01a0c9c7-fd06-7081-83eb-634e5a01bd3f.jsonl
+/home/asdf/.omp/agent/sessions/--run-media-asdf-Windows-Users-Francisco Herrera-qa-digital-automation--/2026-09-22T20-12-26-996Z_01a0cabf-8ff4-758b-a784-6c3887d3595f.jsonl
+/home/asdf/.omp/agent/sessions/--run-media-asdf-Windows-Users-Francisco Herrera-qa-digital-automation--/2026-09-22T14-43-47-123Z_01a0c992-a933-7792-9eee-832537908e3a.jsonl
+/home/asdf/.omp/agent/sessions/--run-media-asdf-Windows-Users-Francisco Herrera-qa-digital-automation--/2026-09-22T14-16-13-301Z_01a0c979-6cf5-771c-b0cc-0b4ee0e1a42c.jsonl
+/home/asdf/.omp/agent/sessions/--run-media-asdf-Windows-Users-Francisco Herrera-qa-digital-automation--/2026-09-22T17-15-18-943Z_01a0ca1d-641f-7207-8c20-e7144d225ac4.jsonl
+/home/asdf/.omp/agent/sessions/--run-media-asdf-Windows-Users-Francisco Herrera-qa-digital-automation--/2026-09-22T17-16-22-797Z_01a0ca1e-5d8d-767d-849e-af01da5a96a3.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-powerbi-linux/2026-09-25T04-00-24-242Z_01a0d6b8-b4b2-72d2-a7ab-f76214c2c6e1.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-powerbi-linux/2026-09-25T01-09-47-122Z_01a0d61c-7ff2-7435-bb24-6772fade0b5c.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-powerbi-linux/2026-09-24T14-12-33-144Z_01a0d3c2-c8f8-70b5-9d10-bbaf936688a3.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-powerbi-linux/2026-09-25T03-59-17-383Z_01a0d6b7-af87-72b9-8444-5dc615e00d12.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads-powerbi-linux/2026-09-24T22-57-43-481Z_01a0d5a3-9839-7645-aa18-2dc9a10141e0.jsonl
+/home/asdf/.omp/agent/sessions/-Downloads/2026-10-04T02-23-16-385Z_01a104b9-03a1-7567-ab02-fc78628b22a6.jsonl
+=== count ===
+244

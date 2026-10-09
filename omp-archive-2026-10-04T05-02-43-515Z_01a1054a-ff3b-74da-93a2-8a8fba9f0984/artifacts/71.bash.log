@@ -1,0 +1,9 @@
+log=/home/asdf/.omp/logs/omp.2026-10-04.309870.log
+{"timestamp":"2026-10-04T00:14:37.381-05:00","level":"info","pid":309870,"message":"[archive] start sessionFile=/home/asdf/.omp/agent/sessions/-tmp-omp-rpc/2026-10-04T05-14-36-224Z_01a10555-df40-72b7-be09-99aeee16d308.jsonl args=\"/tmp/omp-rpc/out.zip\""}
+{"timestamp":"2026-10-04T00:14:37.386-05:00","level":"error","pid":309870,"message":"[archive] failed: Error: ENOENT: no such file or directory, open '/home/asdf/.omp/agent/sessions/-tmp-omp-rpc/2026-10-04T05-14-36-224Z_01a10555-df40-72b7-be09-99aeee16d308.jsonl'\n    at async buildSessionArchive (/home/asdf/projects/omp-archive/extensions/archive-core.ts?mtime=1791090876136:138:47)\n    at async writeArchive (/home/asdf/projects/omp-archive/extensions/archive.ts?mtime=1791090876136:152:35)\n    at async <anonymous> (/home/asdf/projects/omp-archive/extensions/archive.ts?mtime=1791090876136:197:44)\n    at async #Nr (/home/asdf/.bun/install/global/node_modules/@oh-my-pi/pi-coding-agent/dist/cli.js:19181:2520)\n    at async #Ho (/home/asdf/.bun/install/global/node_modules/@oh-my-pi/pi-coding-agent/dist/cli.js:19173:38145)\n    at async #ws (/home/asdf/.bun/install/global/node_modules/@oh-my-pi/pi-coding-agent/dist/cli.js:19167:36060)"}
+=== ls ===
+total 88
+drwxrwxr-x   2 asdf asdf  4096 Oct  4 00:14 .
+drwxrwxrwt 231 root root 65536 Oct  4 00:14 ..
+-rw-rw-r--   1 asdf asdf     0 Oct  4 00:14 err.log
+-rw-rw-r--   1 asdf asdf 16227 Oct  4 00:14 stdout.jsonl

@@ -1,0 +1,109 @@
+{
+  "format": "omp-session-archive/v1",
+  "generatedAt": "2026-10-09T06:03:16.321Z",
+  "source": {
+    "sessionFile": "/home/asdf/.omp/agent/sessions/-projects/2026-10-04T05-02-43-515Z_01a1054a-ff3b-74da-93a2-8a8fba9f0984.jsonl",
+    "sessionId": "01a1054a-ff3b-74da-93a2-8a8fba9f0984",
+    "cwd": "/tmp",
+    "title": "Export full session history with subagents"
+  },
+  "main": {
+    "entries": 445,
+    "bytes": 2321110
+  },
+  "subagents": [],
+  "artifacts": [
+    {
+      "file": "artifacts/71.bash.log",
+      "bytes": 1477
+    },
+    {
+      "file": "artifacts/62.bash.log",
+      "bytes": 90258
+    },
+    {
+      "file": "artifacts/21.bash-original.log",
+      "bytes": 4062
+    },
+    {
+      "file": "artifacts/35.async.log",
+      "bytes": 12960
+    }
+  ],
+  "agents": {
+    "count": 1,
+    "agents": [
+      {
+        "id": "Main",
+        "name": "main",
+        "kind": "main",
+        "depth": 0,
+        "model": "deepseek/deepseek-flash",
+        "hasSystemPrompt": true,
+        "ended": false
+      }
+    ]
+  },
+  "jobs": {
+    "liveAgents": [
+      "Main"
+    ],
+    "completed": 7,
+    "completedJobs": [
+      {
+        "agent": "main",
+        "entryId": "73543aef",
+        "at": "2026-10-04T05:05:22.935Z",
+        "label": "bg_3",
+        "status": "completed"
+      },
+      {
+        "agent": "main",
+        "entryId": "9871aa56",
+        "at": "2026-10-04T05:06:00.750Z",
+        "label": "bg_6",
+        "status": "completed"
+      },
+      {
+        "agent": "main",
+        "entryId": "23ec112d",
+        "at": "2026-10-04T05:07:13.340Z",
+        "label": "bg_2",
+        "status": "completed"
+      },
+      {
+        "agent": "main",
+        "entryId": "6770209c",
+        "at": "2026-10-04T05:13:10.993Z",
+        "label": "bg_11",
+        "status": "completed"
+      },
+      {
+        "agent": "main",
+        "entryId": "20a8ae5c",
+        "at": "2026-10-04T05:13:21.581Z",
+        "label": "bg_12",
+        "status": "completed"
+      },
+      {
+        "agent": "main",
+        "entryId": "77eb924b",
+        "at": "2026-10-04T05:13:39.244Z",
+        "label": "bg_13",
+        "status": "completed"
+      },
+      {
+        "agent": "main",
+        "entryId": "15e7b9f7",
+        "at": "2026-10-04T05:19:24.249Z",
+        "label": "bg_14",
+        "status": "completed"
+      }
+    ]
+  },
+  "totals": {
+    "files": 10,
+    "bytes": 6089168
+  },
+  "omitted": []
+}
