@@ -4,3 +4,8 @@ venv/
 .venv/
 __pycache__/
 *.pyc
+
+# Session archives belong in the repo the session worked on, not here.
+# (Git-tracked archives are unaffected; this only stops new ones from being added.)
+omp-archive-*/
+omp-archive-*.zip
