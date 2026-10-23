@@ -65,6 +65,6 @@ untruncated** tool and background-job output that the transcript truncates, and
 - **Subagent system prompts / tool lists** are not persisted by the host, so
   they appear in `agents.json` only for sessions this process observed. Each
   subagent's full *conversation* is always present, verbatim, under `artifacts/`.
-- The archive is not redacted: it can contain secrets, raw context, and images.
+- The archive is not redacted: it can contain secrets, raw context, and images.  it doesn't sanitize or redact any private or personally identifyable information, that's left to the LLM so you might want to tell it to do that.
 - Paths with spaces are not supported in `/archive` arguments (same parsing as
   `/export`).
