@@ -11,11 +11,14 @@ tool-output logs, or background-job state. This plugin archives all of it.
 ## Install
 
 ```bash
+# npm
+omp plugin install omp-archive
+
 # local checkout / development (symlinked, edits are live)
 omp plugin link /home/user/projects/omp-archive
 
 # git
-omp plugin install github:<user>/omp-archive
+omp plugin install github:alosslessdev/omp-archive-main
 
 # marketplace (this repo ships .omp-plugin/marketplace.json)
 /marketplace add <user>/omp-archive

@@ -2,10 +2,43 @@
 	"name": "omp-archive",
 	"version": "0.1.0",
 	"description": "Export a session's entire history as a single archive: the main transcript, every subagent session verbatim, and background-job outputs",
+	"license": "MIT",
 	"type": "module",
-	"keywords": ["omp", "oh-my-pi", "plugin", "extension", "export", "archive", "session", "subagent"],
+	"keywords": [
+		"omp",
+		"omp-plugin",
+		"oh-my-pi",
+		"plugin",
+		"extension",
+		"export",
+		"archive",
+		"session",
+		"subagent"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alosslessdev/omp-archive-main.git"
+	},
+	"homepage": "https://github.com/alosslessdev/omp-archive-main#readme",
+	"bugs": {
+		"url": "https://github.com/alosslessdev/omp-archive-main/issues"
+	},
+	"files": [
+		"extensions/",
+		".omp-plugin/",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"test": "bun test"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"omp": {
 		"description": "Export a session's entire history: main transcript + every subagent session + background jobs",
-		"extensions": ["./extensions/archive.ts"]
+		"extensions": [
+			"./extensions/archive.ts"
+		]
 	}
 }
